@@ -1,0 +1,14 @@
+{application, pea,
+ [
+  {description, "Recursive descent parser combinators"},
+  {vsn, "1"},
+  {modules, [
+             pea
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
